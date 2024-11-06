@@ -4,7 +4,7 @@ import math
 st.title("Sadaphal's Artifact Calculator")
 
 st.markdown("`Made by Yash, Powered by Streamlit`")
-
+st.markdown("""<a href="https://inversery.streamlit.app/">Inverse Functions</a>""", unsafe_allow_html=True)
 mnmode = st.selectbox("What would you like to calculate?",("Volume", "Surface Area"))
 
 
