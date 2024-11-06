@@ -6,6 +6,8 @@ import math
 st.title("Reverse Functions")
 
 mode = st.selectbox("Which 3D shape's variable would you like to calculate", ("Prism", "Pyramid", "Cylinder", "Cone", "Sphere"))
+st.markdown("`Made by Yash, Powered by Streamlit`") 
+st.markdown("""<a href="https://testytester.streamlit.app/">Surface Area and Volume</a>""", unsafe_allow_html=True)
 
 if mode == "Prism":
     base = st.number_input("How many sides does your prism's base have?", min_value=3)
